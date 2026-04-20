@@ -2,7 +2,7 @@
 layout: page
 permalink: /gantt/
 title: Gantt Chart
-description: Interactive Gantt chart for the Sand Collection System project (CDE3301 / ASI-301).
+description: Interactive Gantt chart for the Beach Collection System project (CDE3301 / ASI-301).
 nav: true
 nav_order: 2
 _styles: >

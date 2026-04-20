@@ -1,20 +1,18 @@
 ---
 layout: page
 permalink: /
-title: CDE3301 · Sand Collection System
-description: Semester 2 project overview for the modular sand collection prototype (CDE3301 / ASI-301).
+title: CDE3301 · Beach Debris Collection System
+description: Semester 2 project overview for the modular beach debris collection prototype (CDE3301 / ASI-301).
 nav: false
 ---
 
 ## Project
 
-A modular robotic system for collecting sand samples on beaches, built for **CDE3301 / ASI-301**.
+A modular robotic system for collecting beach debris on beaches, built for **CDE3301 / ASI-301**.
 
 ## Scope
 
-- Mechanical platform and sand-intake subsystem.
-- Power, drive, and control electronics.
-- Firmware and onboard planning.
+- Mechanical platform and beach debris-intake subsystem.
 - Field integration and validation runs.
 
 ## Planning

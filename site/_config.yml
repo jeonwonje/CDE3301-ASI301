@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: CDE3301 · Sand Collection System
+title: CDE3301 · Beach Collection System
 first_name: Jeon
 middle_name:
 last_name: Wonje
 contact_note:
 description: >
-  Interactive Semester 2 plan for CDE3301 / ASI-301 — modular sand collection system prototype.
+  Interactive Semester 2 plan for CDE3301 / ASI-301 — modular beach debris collection system prototype.
 footer_text: >
   Built with Jekyll and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: cde3301, asi301, gantt, beach-cleaning, robotics
