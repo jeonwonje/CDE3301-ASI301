@@ -13,14 +13,14 @@
     });
   }
 
-  function buildPopup(task) {
+  function buildPopup({ task }) {
     return `
       <div class="gantt-popup">
         <h5 class="mb-1">${task.name}</h5>
         <div class="text-muted small">${task.swimlane || ""}</div>
         <hr class="my-2"/>
-        <div><strong>Start:</strong> ${fmt(task._start)}</div>
-        <div><strong>End:</strong> ${fmt(task._end)}</div>
+        <div><strong>Start:</strong> ${fmt(task._start || task.start)}</div>
+        <div><strong>End:</strong> ${fmt(task._end || task.end)}</div>
       </div>`;
   }
 
