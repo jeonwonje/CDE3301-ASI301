@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Sand Collection System" company="" webLink="" view-date="2026-08-01" view-index="0" version="3.4.3392" locale="en_SG">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="432" order="0"/>
+        <field id="tpd4" name="Begin date" width="162" order="1"/>
+        <field id="tpd5" name="End date" width="165" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="divider" value="0.45546875"/>
+        <filters>
+            <filter title="filter.completedTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.dueTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.overdueTasks" description="" is-built-in="true" is-enabled="false"/>
+            <filter title="filter.inProgressTodayTasks" description="" is-built-in="true" is-enabled="false"/>
+        </filters>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="486" order="0"/>
+        <field id="1" name="Default role" width="209" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="978b10598a5c4e059cf594125248e3b3" name="Yizhang · Conveyor Belt (Subsystem 1)" color="#1ce8c8" meeting="false" start="2026-08-10" duration="68" complete="0" expand="true">
+            <task id="2" uid="c780d9424fce4f8ea2027b6af885d31a" name="Belt Design" color="#1ce8c8" meeting="false" start="2026-08-10" duration="21" complete="0" expand="true"/>
+            <task id="3" uid="e140f73b57fc4870b32e63ef18260241" name="Belt Fabrication" color="#1ce8c8" meeting="false" start="2026-08-17" duration="35" complete="0" expand="true"/>
+            <task id="4" uid="7d8c2be7c43c4c03a356f9fbd93b4dd0" name="Durability Tests" color="#f0a500" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="5" uid="dff71a68a9264e87af6b5a5f2c8db727" name="Bench Test – Conv. Belt" color="#f0a500" meeting="false" start="2026-09-07" duration="28" complete="0" expand="true"/>
+            <task id="6" uid="1b5297e8957d49adb605e4eeb17abd26" name="Field Test – Conv. Belt" color="#e05c7a" meeting="false" start="2026-10-05" duration="28" complete="0" expand="true"/>
+        </task>
+        <task id="10" uid="296fd085015c465eb14daf64e8d70faf" name="Wonje · Vibratory Bin (Subsystem 2)" color="#b05ce8" meeting="false" start="2026-08-10" duration="68" complete="0" expand="true">
+            <task id="11" uid="793735a838e34105a7ad6eeab8b84d6e" name="Mesh Parameter Design" color="#b05ce8" meeting="false" start="2026-08-10" duration="21" complete="0" expand="true"/>
+            <task id="12" uid="cd9e6dad23b84a10bee7b9f3fa2e3150" name="Bin Fabrication" color="#b05ce8" meeting="false" start="2026-08-17" duration="35" complete="0" expand="true"/>
+            <task id="13" uid="2f01bf0e6ea543649e2eca90db747b24" name="Assembly" color="#b05ce8" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="14" uid="0d78130ead384852b9c680a81147cc34" name="Vibration Tests" color="#f0a500" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="15" uid="18f3fbebfbf04fc4b6004a1a892f5cae" name="Bench Test – Vibr. Bin" color="#f0a500" meeting="false" start="2026-09-21" duration="14" complete="0" expand="true"/>
+            <task id="16" uid="d672fb6552034a699289c799ded60f25" name="Field Test – Vibr. Bin" color="#e05c7a" meeting="false" start="2026-10-05" duration="28" complete="0" expand="true"/>
+        </task>
+        <task id="20" uid="78eb8037bb9d43d9a8987f9634693422" name="Russell · Mounting (Subsystem 3)" color="#3edb5e" meeting="false" start="2026-08-10" duration="68" complete="0" expand="true">
+            <task id="21" uid="a3efd805a51e440f8aa6967f37812bc2" name="Mounting Parameter Design" color="#3edb5e" meeting="false" start="2026-08-10" duration="21" complete="0" expand="true"/>
+            <task id="22" uid="6f30c992c5f041a8855e43da88ccbf1a" name="Mounting Fabrication" color="#3edb5e" meeting="false" start="2026-08-17" duration="35" complete="0" expand="true"/>
+            <task id="23" uid="75d9333c80794380857259bdfe2daed7" name="Integration &amp; Assembly" color="#3edb5e" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="24" uid="48985fa54836476580286d500b9650ff" name="User Experience Testing" color="#f0a500" meeting="false" start="2026-09-14" duration="21" complete="0" expand="true"/>
+            <task id="25" uid="7ec8d1aa9344490bbaf109f7775b53d0" name="Bench Test – Mounting" color="#f0a500" meeting="false" start="2026-09-14" duration="21" complete="0" expand="true"/>
+            <task id="26" uid="50b73de0ab3f4821a7f7af5f176a8d03" name="Field Test – Mounting" color="#e05c7a" meeting="false" start="2026-10-05" duration="28" complete="0" expand="true"/>
+        </task>
+        <task id="30" uid="040fee532d5c4c08b147bc352bd10ff7" name="Ming Yuan · Logistics + Integration" color="#f0a500" meeting="false" start="2026-08-10" duration="70" complete="0" expand="true">
+            <task id="31" uid="46c4f4b0464a45c6a93cc9e47e3a2dcc" name="Procurement Coordination" color="#f0a500" meeting="false" start="2026-08-10" duration="28" complete="0" expand="true"/>
+            <task id="32" uid="86d2e3ad69444ef99a244644716160ce" name="RE Sustainability Approval" color="#3edb5e" meeting="false" start="2026-08-10" duration="28" complete="0" expand="true"/>
+            <task id="33" uid="652ff8d70e0a49fe85fa3ba46b189e74" name="Systems Integration" color="#f0a500" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="34" uid="72f82ebe68654ef89ed9053450db54da" name="RE Sustainability Interviews" color="#3edb5e" meeting="false" start="2026-09-07" duration="28" complete="0" expand="true"/>
+            <task id="35" uid="6f55421bcbe447b2a47928a08bd68d9a" name="Test Coordination" color="#e05c7a" meeting="false" start="2026-09-28" duration="35" complete="0" expand="true"/>
+            <task id="36" uid="3e51a454652745f38ce670b820c0cbcd" name="Field Trial – Logistics" color="#e05c7a" meeting="false" start="2026-10-05" duration="28" complete="0" expand="true"/>
+        </task>
+        <task id="40" uid="2e076df639e843f096a128cf97ee6bed" name="Gary · Documentation + Integration" color="#7a7aff" meeting="false" start="2026-08-10" duration="71" complete="0" expand="true">
+            <task id="41" uid="dd0120569dd247d58c15299c71f98e1b" name="Literature Review &amp; Research" color="#7a7aff" meeting="false" start="2026-08-10" duration="28" complete="0" expand="true"/>
+            <task id="42" uid="bb8ffd514a384509b7e73d2d8e5278ce" name="Power Budgeting" color="#7a7aff" meeting="false" start="2026-08-17" duration="35" complete="0" expand="true"/>
+            <task id="43" uid="84c88920e3f64d2a8d4cb83361c7ad49" name="Test Coordination" color="#e05c7a" meeting="false" start="2026-09-28" duration="35" complete="0" expand="true"/>
+            <task id="44" uid="a5dd153758f3422c98d005853f7b2893" name="Report Consolidation" color="#7a7aff" meeting="false" start="2026-10-05" duration="21" complete="0" expand="true"/>
+            <task id="45" uid="de01bd4306e747a7a8ab42bbdfb983b9" name="Final Report" color="#7a7aff" meeting="false" start="2026-10-19" duration="21" complete="0" expand="true"/>
+        </task>
+        <task id="50" uid="b43745d800ea49a6932fa8e577cb5273" name="All · Joint Tasks" color="#e05c7a" meeting="false" start="2026-09-07" duration="51" complete="0" expand="true">
+            <task id="51" uid="1d2cd2759df94ebe99c1561c5f334129" name="Full System Integration" color="#e05c7a" meeting="false" start="2026-09-07" duration="21" complete="0" expand="true"/>
+            <task id="52" uid="c8845f2330a94270a45ad6a53e611a04" name="Bench Testing – Phase 1 (all sys)" color="#f0a500" meeting="false" start="2026-09-14" duration="21" complete="0" expand="true"/>
+            <task id="53" uid="00b29ca3f4b04a4db61730de970f2cec" name="Redesign Buffer (Gate 1 fail trigger)" color="#a0522d" meeting="false" start="2026-10-05" duration="14" complete="0" expand="true"/>
+            <task id="54" uid="fdaa8681497b4fe48783e06e3a15da7b" name="Field Testing – Phase 2" color="#e05c7a" meeting="false" start="2026-10-05" duration="28" complete="0" expand="true"/>
+            <task id="55" uid="a0507c0a8ba64dd0a08f065d67c336cc" name="Iteration &amp; Refinement – Phase 3" color="#e05c7a" meeting="false" start="2026-10-19" duration="14" complete="0" expand="true"/>
+            <task id="56" uid="061424085eaa43d09a157e3019753073" name="PoC Demonstration – Phase 4" color="#c8db3e" meeting="false" start="2026-10-26" duration="14" complete="0" expand="true"/>
+            <task id="57" uid="73c04a7c05004d91b9badee3ccaa0d9d" name="Final Report" color="#7a7aff" meeting="false" start="2026-10-19" duration="21" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Yizhang" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Wonje" function="Default:1" contacts="" phone=""/>
+        <resource id="2" name="Russell" function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Ming Yuan" function="Default:1" contacts="" phone=""/>
+        <resource id="4" name="Gary" function="Default:1" contacts="" phone=""/>
+        <resource id="5" name="All" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

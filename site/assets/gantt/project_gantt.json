@@ -1,0 +1,387 @@
+{
+  "project": "Sand Collection System",
+  "swimlanes": [
+    {
+      "id": "1",
+      "name": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "10",
+      "name": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "20",
+      "name": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "30",
+      "name": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "40",
+      "name": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "50",
+      "name": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t2",
+      "name": "Belt Design",
+      "start": "2026-08-10",
+      "end": "2026-08-31",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "t3",
+      "name": "Belt Fabrication",
+      "start": "2026-08-17",
+      "end": "2026-09-21",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "t4",
+      "name": "Durability Tests",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "t5",
+      "name": "Bench Test \u2013 Conv. Belt",
+      "start": "2026-09-07",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "t6",
+      "name": "Field Test \u2013 Conv. Belt",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Yizhang \u00b7 Conveyor Belt (Subsystem 1)",
+      "custom_class": "bar-yizhang"
+    },
+    {
+      "id": "t11",
+      "name": "Mesh Parameter Design",
+      "start": "2026-08-10",
+      "end": "2026-08-31",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t12",
+      "name": "Bin Fabrication",
+      "start": "2026-08-17",
+      "end": "2026-09-21",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t13",
+      "name": "Assembly",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t14",
+      "name": "Vibration Tests",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t15",
+      "name": "Bench Test \u2013 Vibr. Bin",
+      "start": "2026-09-21",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t16",
+      "name": "Field Test \u2013 Vibr. Bin",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Wonje \u00b7 Vibratory Bin (Subsystem 2)",
+      "custom_class": "bar-wonje"
+    },
+    {
+      "id": "t21",
+      "name": "Mounting Parameter Design",
+      "start": "2026-08-10",
+      "end": "2026-08-31",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t22",
+      "name": "Mounting Fabrication",
+      "start": "2026-08-17",
+      "end": "2026-09-21",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t23",
+      "name": "Integration & Assembly",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t24",
+      "name": "User Experience Testing",
+      "start": "2026-09-14",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t25",
+      "name": "Bench Test \u2013 Mounting",
+      "start": "2026-09-14",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t26",
+      "name": "Field Test \u2013 Mounting",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Russell \u00b7 Mounting (Subsystem 3)",
+      "custom_class": "bar-russell"
+    },
+    {
+      "id": "t31",
+      "name": "Procurement Coordination",
+      "start": "2026-08-10",
+      "end": "2026-09-07",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t32",
+      "name": "RE Sustainability Approval",
+      "start": "2026-08-10",
+      "end": "2026-09-07",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t33",
+      "name": "Systems Integration",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t34",
+      "name": "RE Sustainability Interviews",
+      "start": "2026-09-07",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t35",
+      "name": "Test Coordination",
+      "start": "2026-09-28",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t36",
+      "name": "Field Trial \u2013 Logistics",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Ming Yuan \u00b7 Logistics + Integration",
+      "custom_class": "bar-mingyuan"
+    },
+    {
+      "id": "t41",
+      "name": "Literature Review & Research",
+      "start": "2026-08-10",
+      "end": "2026-09-07",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "t42",
+      "name": "Power Budgeting",
+      "start": "2026-08-17",
+      "end": "2026-09-21",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "t43",
+      "name": "Test Coordination",
+      "start": "2026-09-28",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "t44",
+      "name": "Report Consolidation",
+      "start": "2026-10-05",
+      "end": "2026-10-26",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "t45",
+      "name": "Final Report",
+      "start": "2026-10-19",
+      "end": "2026-11-09",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "Gary \u00b7 Documentation + Integration",
+      "custom_class": "bar-gary"
+    },
+    {
+      "id": "t51",
+      "name": "Full System Integration",
+      "start": "2026-09-07",
+      "end": "2026-09-28",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t52",
+      "name": "Bench Testing \u2013 Phase 1 (all sys)",
+      "start": "2026-09-14",
+      "end": "2026-10-05",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t53",
+      "name": "Redesign Buffer (Gate 1 fail trigger)",
+      "start": "2026-10-05",
+      "end": "2026-10-19",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t54",
+      "name": "Field Testing \u2013 Phase 2",
+      "start": "2026-10-05",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t55",
+      "name": "Iteration & Refinement \u2013 Phase 3",
+      "start": "2026-10-19",
+      "end": "2026-11-02",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t56",
+      "name": "PoC Demonstration \u2013 Phase 4",
+      "start": "2026-10-26",
+      "end": "2026-11-09",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    },
+    {
+      "id": "t57",
+      "name": "Final Report",
+      "start": "2026-10-19",
+      "end": "2026-11-09",
+      "progress": 0,
+      "dependencies": "",
+      "swimlane": "All \u00b7 Joint Tasks",
+      "custom_class": "bar-all"
+    }
+  ]
+}
