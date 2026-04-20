@@ -32,7 +32,6 @@ _styles: >
 <div id="gantt-controls" class="gantt-controls">
   <button data-mode="Day">Day</button>
   <button data-mode="Week" class="active">Week</button>
-  <button data-mode="Month">Month</button>
 </div>
 
 <div id="gantt-legend" class="gantt-legend"></div>
