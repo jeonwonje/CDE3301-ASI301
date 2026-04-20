@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jeonwonje.github.io/CDE3301-ASI301/sitemap.xml
