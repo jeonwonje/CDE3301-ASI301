@@ -77,8 +77,19 @@
       swimlane: t.swimlane,
     }));
 
+    // Pin the chart range to min(task.start)..max(task.end) by shrinking
+    // Frappe's per-view-mode padding (defaults: Day=7d, Week=1m, Month=2m).
+    // Month mode snaps end DOWN to the first-of-month, so it needs 1m right-pad
+    // to avoid clipping tasks that end mid-month.
+    const view_modes = [
+      { ...Gantt.VIEW_MODE.DAY, padding: ["0d", "0d"] },
+      { ...Gantt.VIEW_MODE.WEEK, padding: ["0d", "0d"] },
+      { ...Gantt.VIEW_MODE.MONTH, padding: ["0d", "1m"] },
+    ];
+
     const gantt = new Gantt(mount, tasks, {
       view_mode: DEFAULT_MODE,
+      view_modes,
       readonly: true,
       popup: buildPopup,
       language: "en",

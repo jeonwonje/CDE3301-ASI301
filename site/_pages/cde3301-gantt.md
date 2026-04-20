@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /
-title: CDE3301 Semester 2 Plan
+permalink: /gantt/
+title: Gantt Chart
 description: Interactive Gantt chart for the Sand Collection System project (CDE3301 / ASI-301).
 nav: true
-nav_order: 1
+nav_order: 2
 _styles: >
   .gantt-controls { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
   .gantt-controls button { padding: 0.25rem 0.75rem; border: 1px solid #ccc; background: #fff; border-radius: 4px; cursor: pointer; font-size: 0.875rem; }
