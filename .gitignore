@@ -1,3 +1,4 @@
+# --- existing (GitHub Pages site tooling) ---
 .DS_Store
 .idea/
 .vscode/
@@ -5,3 +6,40 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# --- BAPNN / ASI-301 asset + document store ---
+
+# SOLIDWORKS backups & temp
+~$*
+*.bak
+*.~*
+backup/
+Backup/
+swxJRNL.*
+*.swp
+*.SLDLFP.bak
+
+# OS cruft
+Thumbs.db
+desktop.ini
+
+# Office lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# CONFIDENTIAL — never publish to this PUBLIC repo (NDA / partner material)
+*NDA*
+*Signed*
+**/confidential/
+
+# Python (ml/ and control/)
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Large ML artifacts — keep out of git (no LFS in this repo)
+*.ckpt
+*.pt
+*.pth
+*.onnx
