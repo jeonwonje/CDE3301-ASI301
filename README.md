@@ -14,9 +14,10 @@ ML / control code.
 > `*NDA*`, `*Signed*`, and `**/confidential/` as a safety net — don't rely on it, think
 > before you `git add`.
 
-The `site/` folder is a separate **GitHub Pages website** (Jekyll) served via the
-`gh-pages` branch — it is *not* part of the asset store. Leave it alone unless you're
-working on the project website.
+The **project website** (Jekyll) is *not* on `main`. Its source lives on the **`website`
+branch**; pushing there builds it and deploys to **`gh-pages`**, which GitHub Pages serves
+at <https://jeonwonje.github.io/CDE3301-ASI301/>. Touch the website only by working on the
+`website` branch — `main` is purely the asset/document store.
 
 ## SOLIDWORKS version
 
@@ -39,8 +40,9 @@ docs/           PDFs, reports, datasheets, manuals
 presentations/  slides (pptx, pdf exports)
 media/          images, photos, renders, field-visit pics
 reference/      third-party datasheets, standards, partner material
-site/           project website (Jekyll → gh-pages) — not the asset store
 ```
+
+(The project website source is not here — it lives on the `website` branch.)
 
 ## Big files & the 100 MB limit (NO Git LFS)
 
