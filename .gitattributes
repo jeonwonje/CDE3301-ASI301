@@ -1,0 +1,37 @@
+# Repo decision: NO Git LFS (see README "Big files & the 100 MB limit").
+# Binaries are stored directly in .git. These rules stop Git from trying to
+# line-ending-normalize or text-diff them, which keeps the history clean.
+
+# === SOLIDWORKS (un-mergeable binaries) ===
+*.sldprt   binary
+*.sldasm   binary
+*.slddrw   binary
+*.SLDPRT   binary
+*.SLDASM   binary
+*.SLDDRW   binary
+
+# === Neutral CAD exports ===
+*.step     binary
+*.stp      binary
+*.iges     binary
+*.igs      binary
+*.stl      binary
+*.x_t      binary
+
+# === Documents ===
+*.pdf      binary
+*.docx     binary
+*.pptx     binary
+*.xlsx     binary
+
+# === Media ===
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.tif      binary
+*.tiff     binary
+*.mp4      binary
+
+# === Text we keep mergeable: force LF ===
+*.md       text eol=lf
+*.txt      text eol=lf
